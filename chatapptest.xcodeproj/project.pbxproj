@@ -16,6 +16,7 @@
 		6A483D1021F563F600F56689 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A483D0F21F563F600F56689 /* LoginViewController.swift */; };
 		6A483D1321F567CC00F56689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A483D1121F567CC00F56689 /* Main.storyboard */; };
 		6A483D1521F57D6900F56689 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A483D1421F57D6900F56689 /* SignupViewController.swift */; };
+		6A64971921F615BE00F5E30F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A64971821F615BE00F5E30F /* MainViewController.swift */; };
 		C71F1ACCF0D1E61C284B5736 /* Pods_chatapptest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380DD174FAE987592DBC1F06 /* Pods_chatapptest.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		6A483D0F21F563F600F56689 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6A483D1221F567CC00F56689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A483D1421F57D6900F56689 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		6A64971821F615BE00F5E30F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				6A483CF921F556E400F56689 /* AppDelegate.swift */,
 				6A483CFB21F556E400F56689 /* ViewController.swift */,
 				6A483D0F21F563F600F56689 /* LoginViewController.swift */,
+				6A64971821F615BE00F5E30F /* MainViewController.swift */,
 				6A483D1421F57D6900F56689 /* SignupViewController.swift */,
 				6A483D1121F567CC00F56689 /* Main.storyboard */,
 				6A483D0221F556E600F56689 /* LaunchScreen.storyboard */,
@@ -229,6 +232,7 @@
 				6A483CFC21F556E400F56689 /* ViewController.swift in Sources */,
 				6A483D1521F57D6900F56689 /* SignupViewController.swift in Sources */,
 				6A483CFA21F556E400F56689 /* AppDelegate.swift in Sources */,
+				6A64971921F615BE00F5E30F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,9 +380,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LL89GNPYC4;
+				DEVELOPMENT_TEAM = 98CWEM96FL;
 				INFOPLIST_FILE = chatapptest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chatapptest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -392,9 +399,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LL89GNPYC4;
+				DEVELOPMENT_TEAM = 98CWEM96FL;
 				INFOPLIST_FILE = chatapptest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chatapptest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

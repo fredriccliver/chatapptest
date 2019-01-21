@@ -23,6 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="89" y="148"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="yIo-NV-k0h">
@@ -46,7 +47,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
                                         <color key="value" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -116,13 +117,30 @@
                         <viewLayoutGuide key="safeArea" id="SU6-Up-RwI"/>
                     </view>
                     <connections>
+                        <outlet property="email" destination="VFx-8U-a6S" id="CwP-eu-nYv"/>
                         <outlet property="loginButton" destination="nvU-9Z-LBE" id="M9l-o6-bpe"/>
+                        <outlet property="password" destination="y7g-gm-ROO" id="m1f-Ph-Hcb"/>
                         <outlet property="signUp" destination="wP3-To-KfT" id="Km4-3j-zO3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H25-7G-PFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1342" y="26"/>
+            <point key="canvasLocation" x="790" y="134"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="N2p-5B-LVp">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="2I6-Vh-2RT" customClass="MainViewController" customModule="chatapptest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OrQ-AP-j6p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="jRG-8h-sKc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6s1-DB-mKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1443" y="132"/>
         </scene>
         <!--Signup View Controller-->
         <scene sceneID="XK2-WA-e7i">
@@ -242,7 +260,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lcm-Q9-tpK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1344.8" y="687.7061469265368"/>
+            <point key="canvasLocation" x="793" y="796"/>
         </scene>
     </scenes>
     <resources>
