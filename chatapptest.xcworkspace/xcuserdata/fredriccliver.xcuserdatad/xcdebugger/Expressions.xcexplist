@@ -3,10 +3,26 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "closure #1 in LoginViewController.loginEvent():LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "err != nil">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "LoginViewController.viewDidLoad():LoginViewController.swift">
          <PersistentStrings>
             <PersistentString
                value = "color">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in LoginViewController.viewDidLoad():LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user != nil">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

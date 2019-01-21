@@ -63,13 +63,8 @@ class SignupViewController: UIViewController, UINavigationControllerDelegate, UI
     
     @objc func signupEvent(){
         Auth.auth().createUser(withEmail: email.text!, password: password.text!) { (user, err) in
-            let uid = Auth.auth().currentUser?.uid
-            
+            let uid = user?.user.uid
             let image = self.imageView.image?.jpegData(compressionQuality: 0.8)
-            
-            
-            
-            
             
             let imageRef = Storage.storage().reference().child("userImages").child(uid!)
             
